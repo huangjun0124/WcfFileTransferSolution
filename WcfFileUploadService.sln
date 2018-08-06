@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfFileUploadService", "WcfFileUploadService\WcfFileUploadService.csproj", "{237F1E88-E073-4B41-ABEE-2198475C28E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWcfUploadFile", "TestWcfUploadFile\TestWcfUploadFile.csproj", "{28250ECE-C182-43B8-8659-FF74E1F09D0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{237F1E88-E073-4B41-ABEE-2198475C28E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{237F1E88-E073-4B41-ABEE-2198475C28E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{237F1E88-E073-4B41-ABEE-2198475C28E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28250ECE-C182-43B8-8659-FF74E1F09D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28250ECE-C182-43B8-8659-FF74E1F09D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28250ECE-C182-43B8-8659-FF74E1F09D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28250ECE-C182-43B8-8659-FF74E1F09D0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
