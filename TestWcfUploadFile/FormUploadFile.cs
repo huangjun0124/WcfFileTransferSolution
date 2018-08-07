@@ -50,7 +50,9 @@ namespace TestWcfUploadFile
 
             BasicHttpBinding binding = new BasicHttpBinding();
             binding.TransferMode = TransferMode.Streamed;
+            binding.MessageEncoding = WSMessageEncoding.Mtom;
             binding.MaxReceivedMessageSize = 9223372036854775807;
+            binding.SendTimeout = new TimeSpan(0,0,10,0); // 设置十分钟超时
 
             IUpLoadService channel = ChannelFactory<IUpLoadService>.CreateChannel(binding,
                 new EndpointAddress("http://localhost:62805/UpLoadService.svc"));
